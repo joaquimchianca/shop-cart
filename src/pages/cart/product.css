@@ -1,0 +1,50 @@
+.produto {
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding: 15px 10px;
+    gap: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 1px 4px;
+}
+
+.produto__info {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.produto__nome {
+    font-size: 18px;
+    margin-bottom: 3px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.produto__descricao {
+    font-family: 'Nunito';
+    line-height: 19px;
+    margin-bottom: 3px;
+}
+
+.produto__quantidade {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 22px;
+}
+
+.produto__quantidade > div {
+    display: flex;
+    flex-direction: column
+}
+
+.produto__quantidade button {
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+
+
